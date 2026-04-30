@@ -1701,24 +1701,24 @@
                     <a href="#daftar" class="btn-outline"><i class="fas fa-paper-plane"></i> Daftar Sekarang</a>
                 </div>
                 <div class="hero-stats">
-                    <div class="hero-stat">
+                    {{-- <div class="hero-stat">
                         <div class="hero-stat-num counting" data-target="248">0</div>
                         <div class="hero-stat-label">Posisi Terbuka</div>
                     </div>
-                    <div class="hero-stat-divider"></div>
+                    <div class="hero-stat-divider"></div> --}}
                     <div class="hero-stat">
-                        <div class="hero-stat-num counting" data-target="12">0</div>
-                        <div class="hero-stat-label">Unit Fasilitas</div>
+                        <div class="hero-stat-num counting" data-target="112">0</div>
+                        <div class="hero-stat-label">TT</div>
                     </div>
                     <div class="hero-stat-divider"></div>
                     <div class="hero-stat">
-                        <div class="hero-stat-num counting" data-target="5600">0</div>
+                        <div class="hero-stat-num counting" data-target="357">0</div>
                         <div class="hero-stat-label">Pegawai Aktif</div>
                     </div>
                 </div>
             </div>
 
-            <div class="hero-visual">
+            {{-- <div class="hero-visual">
                 <div class="hero-card-main">
                     <div class="hero-card-header">
                         <div class="avatar-stack">
@@ -1780,12 +1780,12 @@
                     <div class="fc-stat-num">96%</div>
                     <div class="fc-stat-label">Tingkat Kepuasan</div>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </section>
 
     <!-- ─── STATS BAR ─── -->
-    <div class="stats-section">
+    {{-- <div class="stats-section">
         <div class="section-inner">
             <div class="stats-grid reveal">
                 <div class="stat-item">
@@ -1806,7 +1806,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
 
     <!-- ─── FEATURES / MENGAPA ─── -->
     <section id="mengapa">
@@ -1859,7 +1859,7 @@
     </section>
 
     <!-- ─── LOWONGAN ─── -->
-    <section class="positions-section" id="posisi">
+    {{-- <section class="positions-section" id="posisi">
         <div class="section-inner">
             <div class="section-header reveal">
                 <div class="section-tag">Lowongan Terbuka</div>
@@ -1878,7 +1878,7 @@
                 <!-- Cards injected by JS -->
             </div>
         </div>
-    </section>
+    </section> --}}
 
     <!-- ─── PROCESS ─── -->
     <section class="process-section" id="proses">
@@ -1930,10 +1930,10 @@
                                 biasa membuat saya terus berkembang setiap hari."</p>
                             <div class="testi-author">
                                 <div class="testi-avatar" style="background:#0d6e4e">SR</div>
-                                <div>
+                                {{-- <div>
                                     <div class="testi-name">dr. Sari Rahayu, Sp.PD</div>
                                     <div class="testi-role">Dokter Spesialis Penyakit Dalam · 3 tahun</div>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>
@@ -1945,10 +1945,10 @@
                                 keperawatan yang luar biasa ini."</p>
                             <div class="testi-author">
                                 <div class="testi-avatar" style="background:#f4a827">BW</div>
-                                <div>
+                                {{-- <div>
                                     <div class="testi-name">Budi Wicaksono, S.Kep</div>
                                     <div class="testi-role">Perawat Senior ICU · 5 tahun</div>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>
@@ -1960,10 +1960,10 @@
                                 sini benar-benar mendukung pengembangan profesional."</p>
                             <div class="testi-author">
                                 <div class="testi-avatar" style="background:#e85d5d">LA</div>
-                                <div>
+                                {{-- <div>
                                     <div class="testi-name">Linda Anggraini, M.Farm</div>
                                     <div class="testi-role">Kepala Instalasi Farmasi · 4 tahun</div>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>
@@ -1975,10 +1975,10 @@
                                 meningkatkan kompetensi teknis saya secara signifikan."</p>
                             <div class="testi-author">
                                 <div class="testi-avatar" style="background:#4a90d9">RP</div>
-                                <div>
+                                {{-- <div>
                                     <div class="testi-name">Rizky Pratama, A.Md.AK</div>
                                     <div class="testi-role">Analis Laboratorium · 2 tahun</div>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>
@@ -2154,7 +2154,7 @@
                 <div>
                     <a href="#" class="footer-logo">
                         <div class="footer-logo-icon"><i class="fas fa-heartbeat"></i></div>
-                        MediCareRekrut
+                        RSD KALISAT Rekrutment
                     </a>
                     <p class="footer-about">Platform rekrutmen resmi tenaga kesehatan profesional Indonesia. Kami
                         berkomitmen menghadirkan proses seleksi yang adil, transparan, dan bermartabat.</p>
@@ -2175,7 +2175,7 @@
                         <li><a href="#daftar">Daftar Sekarang</a></li>
                     </ul>
                 </div>
-                <div>
+                {{-- <div>
                     <div class="footer-col-title">Posisi Populer</div>
                     <ul class="footer-links">
                         <li><a href="#">Dokter Umum</a></li>
@@ -2184,22 +2184,22 @@
                         <li><a href="#">Apoteker Klinis</a></li>
                         <li><a href="#">Fisioterapis</a></li>
                     </ul>
-                </div>
+                </div> --}}
                 <div>
                     <div class="footer-col-title">Kontak</div>
                     <ul class="footer-links">
-                        <li><a href="#"><i class="fas fa-map-marker-alt" style="width:16px"></i> Surabaya, Jawa
+                        <li><a href="#"><i class="fas fa-map-marker-alt" style="width:16px"></i> Jember, Jawa
                                 Timur</a></li>
                         <li><a href="#"><i class="fas fa-phone" style="width:16px"></i> (031) 5xx-xxxx</a></li>
                         <li><a href="#"><i class="fas fa-envelope" style="width:16px"></i>
-                                rekrutmen@medicare.id</a></li>
+                                rsdkalisat@gmail.com</a></li>
                         <li><a href="#"><i class="fas fa-clock" style="width:16px"></i> Senin–Jumat,
-                                08.00–17.00</a></li>
+                                08.00–15.00</a></li>
                     </ul>
                 </div>
             </div>
             <div class="footer-bottom">
-                <span>© 2025 MediCareRekrut. Hak cipta dilindungi undang-undang.</span>
+                <span>© 2026 RSD KALISAT Rekrutment. Hak cipta dilindungi undang-undang.</span>
                 <span>Kebijakan Privasi · Syarat & Ketentuan</span>
             </div>
         </div>
@@ -2306,38 +2306,38 @@
             },
         ];
 
-        function renderPositions(cat = 'all') {
-            const grid = document.getElementById('positionsGrid');
-            const filtered = cat === 'all' ? positions : positions.filter(p => p.cat === cat);
-            grid.innerHTML = filtered.map(p => `
-    <div class="pos-card">
-      <div class="pos-top">
-        <div class="pos-logo ${p.color}"><i class="fas ${p.icon}"></i></div>
-        <div>
-          <div class="pos-dept">${p.dept}</div>
-          <div class="pos-title">${p.title}</div>
-        </div>
-      </div>
-      <div class="pos-tags">${p.tags.map(t=>`<span class="pos-tag">${t}</span>`).join('')}</div>
-      <div class="pos-footer">
-        <div>
-          <div class="pos-salary">${p.salary}</div>
-          <div class="pos-deadline"><i class="fas fa-calendar-alt" style="color:var(--text-muted);margin-right:4px"></i>Tutup ${p.deadline}</div>
-        </div>
-        <button class="pos-apply" onclick="document.getElementById('daftar').scrollIntoView({behavior:'smooth'})">Lamar</button>
-      </div>
-    </div>
-  `).join('');
-        }
+//         function renderPositions(cat = 'all') {
+//             const grid = document.getElementById('positionsGrid');
+//             const filtered = cat === 'all' ? positions : positions.filter(p => p.cat === cat);
+//             grid.innerHTML = filtered.map(p => `
+//     <div class="pos-card">
+//       <div class="pos-top">
+//         <div class="pos-logo ${p.color}"><i class="fas ${p.icon}"></i></div>
+//         <div>
+//           <div class="pos-dept">${p.dept}</div>
+//           <div class="pos-title">${p.title}</div>
+//         </div>
+//       </div>
+//       <div class="pos-tags">${p.tags.map(t=>`<span class="pos-tag">${t}</span>`).join('')}</div>
+//       <div class="pos-footer">
+//         <div>
+//           <div class="pos-salary">${p.salary}</div>
+//           <div class="pos-deadline"><i class="fas fa-calendar-alt" style="color:var(--text-muted);margin-right:4px"></i>Tutup ${p.deadline}</div>
+//         </div>
+//         <button class="pos-apply" onclick="document.getElementById('daftar').scrollIntoView({behavior:'smooth'})">Lamar</button>
+//       </div>
+//     </div>
+//   `).join('');
+//         }
 
-        document.querySelectorAll('.filter-btn').forEach(btn => {
-            btn.addEventListener('click', function() {
-                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-                this.classList.add('active');
-                renderPositions(this.dataset.cat);
-            });
-        });
-        renderPositions();
+//         document.querySelectorAll('.filter-btn').forEach(btn => {
+//             btn.addEventListener('click', function() {
+//                 document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+//                 this.classList.add('active');
+//                 renderPositions(this.dataset.cat);
+//             });
+//         });
+//         renderPositions();
 
         // ─── SWIPER ───
         new Swiper('.swiper-testi', {
