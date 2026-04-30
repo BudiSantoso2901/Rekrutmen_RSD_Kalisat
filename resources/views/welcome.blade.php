@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="{{ asset('logo.png') }}" type="image/x-icon">
     <title>RSD KALISAT</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link
@@ -2306,38 +2307,38 @@
             },
         ];
 
-//         function renderPositions(cat = 'all') {
-//             const grid = document.getElementById('positionsGrid');
-//             const filtered = cat === 'all' ? positions : positions.filter(p => p.cat === cat);
-//             grid.innerHTML = filtered.map(p => `
-//     <div class="pos-card">
-//       <div class="pos-top">
-//         <div class="pos-logo ${p.color}"><i class="fas ${p.icon}"></i></div>
-//         <div>
-//           <div class="pos-dept">${p.dept}</div>
-//           <div class="pos-title">${p.title}</div>
-//         </div>
-//       </div>
-//       <div class="pos-tags">${p.tags.map(t=>`<span class="pos-tag">${t}</span>`).join('')}</div>
-//       <div class="pos-footer">
-//         <div>
-//           <div class="pos-salary">${p.salary}</div>
-//           <div class="pos-deadline"><i class="fas fa-calendar-alt" style="color:var(--text-muted);margin-right:4px"></i>Tutup ${p.deadline}</div>
-//         </div>
-//         <button class="pos-apply" onclick="document.getElementById('daftar').scrollIntoView({behavior:'smooth'})">Lamar</button>
-//       </div>
-//     </div>
-//   `).join('');
-//         }
+        //         function renderPositions(cat = 'all') {
+        //             const grid = document.getElementById('positionsGrid');
+        //             const filtered = cat === 'all' ? positions : positions.filter(p => p.cat === cat);
+        //             grid.innerHTML = filtered.map(p => `
+    //     <div class="pos-card">
+    //       <div class="pos-top">
+    //         <div class="pos-logo ${p.color}"><i class="fas ${p.icon}"></i></div>
+    //         <div>
+    //           <div class="pos-dept">${p.dept}</div>
+    //           <div class="pos-title">${p.title}</div>
+    //         </div>
+    //       </div>
+    //       <div class="pos-tags">${p.tags.map(t=>`<span class="pos-tag">${t}</span>`).join('')}</div>
+    //       <div class="pos-footer">
+    //         <div>
+    //           <div class="pos-salary">${p.salary}</div>
+    //           <div class="pos-deadline"><i class="fas fa-calendar-alt" style="color:var(--text-muted);margin-right:4px"></i>Tutup ${p.deadline}</div>
+    //         </div>
+    //         <button class="pos-apply" onclick="document.getElementById('daftar').scrollIntoView({behavior:'smooth'})">Lamar</button>
+    //       </div>
+    //     </div>
+    //   `).join('');
+        //         }
 
-//         document.querySelectorAll('.filter-btn').forEach(btn => {
-//             btn.addEventListener('click', function() {
-//                 document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-//                 this.classList.add('active');
-//                 renderPositions(this.dataset.cat);
-//             });
-//         });
-//         renderPositions();
+        //         document.querySelectorAll('.filter-btn').forEach(btn => {
+        //             btn.addEventListener('click', function() {
+        //                 document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        //                 this.classList.add('active');
+        //                 renderPositions(this.dataset.cat);
+        //             });
+        //         });
+        //         renderPositions();
 
         // ─── SWIPER ───
         new Swiper('.swiper-testi', {
