@@ -15,6 +15,10 @@ class PelamarAuth
      */
     public function handle(Request $request, Closure $next): Response
     {
+        if (! session()->has('pelamar_id')) {
+            return redirect()->route('pelamar.login')
+                ->with('error', 'Silakan login terlebih dahulu.');
+        }
         return $next($request);
     }
 }
